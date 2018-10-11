@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "Custom MVC structure with composer as a dependency and loader. Real-time search app",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christopher Medina",
+      "email": "chris@chrismedinaphp.com"
+    }
+  ],
+  "require": {
+    "smarty/smarty": "~3.1"
+  },
+  "autoload": {
+    "psr-4":{
+      "App\\": "app/",
+      "App\\Support\\" : "app/support/",
+      "App\\Models\\" : "app/models/",
+      "App\\Controllers\\": "app/controllers/",
+      "App\\Config\\" : "app/config/",
+      "App\\Config\\Smarty\\" : "app/config/smarty/",
+      "App\\Support\\Smarty\\" : "app/support/smarty/"
+    }
+  }
+}
