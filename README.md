@@ -11,7 +11,10 @@ Note: This uses composer for autoloading (composer.json).
 
 2. Add your database settings to the config/settings.php file.
 
-3. You can do a web-based database setup by visiting the application root and accessing:  index.php?controller=install&action=run
+3. You can do a web-based database setup by visiting the application root and accessing:  
+
+  http://localhost:80/index.php?controller=install&action=run
+  
   (Note you will first have to create the database via mysql command line or phpmyadmin or other)
 
   Alternatively you can import the existing database (mysql_tables.sql) via a mysql import tool :)
