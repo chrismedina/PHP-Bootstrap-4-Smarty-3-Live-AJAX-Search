@@ -51,7 +51,6 @@
                          $( "#search_results" ).empty();
                          // Put the results in a div
                          posting.done(function( data ) {
-                             console.log(data);
                              console.time('for each');
                              $('#search_results').css("display","inline");
                              data['results'].forEach(element => {
