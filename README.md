@@ -13,13 +13,15 @@ Note: This uses composer for autoloading (composer.json).
 
 3. You can do a web-based database setup by visiting the application root and accessing:  
 
-  http://localhost:80/index.php?controller=install&action=run
+  localhost:80/index.php?controller=install&action=run
   
   (Note you will first have to create the database via mysql command line or phpmyadmin or other)
 
   Alternatively you can import the existing database (mysql_tables.sql) via a mysql import tool :)
 
-4. Access the HomeController. From your webpath example:  http://localhost:80/index.php?controller=home&action=index
+4. Access the HomeController. From your webpath example:  
+
+   localhost:80/index.php?controller=home&action=index
 
 ###Screenshots
 
