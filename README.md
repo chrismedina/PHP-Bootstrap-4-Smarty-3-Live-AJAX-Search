@@ -11,15 +11,20 @@ Note: This uses composer for autoloading (composer.json).
 
 2. Add your database settings to the config/settings.php file.
 
-3. You can do a web-based database setup by visiting the application root and accessing:  
+3. Navigate to your project root and do a composer update.  Composer is a dependency package manager and this project won't work without it.
+
+    For more info see:  https://getcomposer.org/
+
+4. You can do a web-based database setup by visiting the application root and accessing:  
 
   localhost:80/index.php?controller=install&action=run
   
   (Note you will first have to create the database via mysql command line or phpmyadmin or other)
 
   Alternatively you can import the existing database (mysql_tables.sql) via a mysql import tool :)
+ 
 
-4. Access the HomeController. From your webpath example:  
+5. Access the HomeController. From your webpath example:  
 
    localhost:80/index.php?controller=home&action=index
 
